@@ -1,0 +1,81 @@
+Data-Insights-Hub/
+├── README.md
+├── docs/
+│   ├── architecture.md
+│   ├── api-docs.md
+│   └── user-guide.md
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── (auth)/
+│   │   │   │   ├── login/
+│   │   │   │   ├── register/
+│   │   │   │   └── forgot-password/
+│   │   │   ├── dashboard/
+│   │   │   ├── datasets/
+│   │   │   ├── analysis/
+│   │   │   ├── reports/
+│   │   │   ├── settings/
+│   │   │   ├── chat/
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   ├── components/
+│   │   │   ├── ui/
+│   │   │   ├── dashboard/
+│   │   │   ├── data-upload/
+│   │   │   ├── visualizations/
+│   │   │   ├── chat/
+│   │   │   └── voice/
+│   │   ├── hooks/
+│   │   ├── lib/
+│   │   └── types/
+│   ├── next.config.js
+│   ├── package.json
+│   └── tailwind.config.js
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── auth/
+│   │   │   ├── datasets/
+│   │   │   ├── analysis/
+│   │   │   ├── reports/
+│   │   │   ├── chat/
+│   │   │   └── voice/
+│   │   ├── core/
+│   │   │   ├── config.py
+│   │   │   ├── database.py
+│   │   │   └── security.py
+│   │   ├── models/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   └── main.py
+│   ├── data_science/
+│   │   ├── analysis/
+│   │   │   ├── descriptive.py
+│   │   │   ├── predictive.py
+│   │   │   └── prescriptive.py
+│   │   ├── ml/
+│   │   │   ├── models.py
+│   │   │   ├── training.py
+│   │   │   └── evaluation.py
+│   │   └── utils/
+│   │       ├── data_processing.py
+│   │       └── visualization.py
+│   ├── ai/
+│   │   ├── chatbot/
+│   │   │   ├── intent_recognition.py
+│   │   │   ├── response_generation.py
+│   │   │   └── context_management.py
+│   │   └── voice/
+│   │       ├── speech_recognition.py
+│   │       ├── text_to_speech.py
+│   │       └── command_processing.py
+│   ├── tests/
+│   ├── Dockerfile
+│   └── requirements.txt
+├── infrastructure/
+│   ├── terraform/
+│   ├── docker-compose.yml
+│   └── .github/workflows/
+└── .gitignore

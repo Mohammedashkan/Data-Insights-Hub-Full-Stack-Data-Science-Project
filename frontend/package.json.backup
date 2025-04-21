@@ -1,0 +1,18 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next export"
+  },
+  "devDependencies": {
+    "@types/react-sparklines": "^1.7.5"
+  },
+  "dependencies": {
+    "next": "^15.3.1"
+  }
+}
